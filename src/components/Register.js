@@ -22,7 +22,7 @@ function Register({ onRegister }) {
   }
 
   return (
-    <div className="auth">
+    <div className="auth" >
       <h2 className="auth__title">Регистрация</h2>
       <form name="register" className="auth__form" onSubmit={handleSubmit}>
         <input type="email" name="email" className="auth__input" placeholder="Email"
