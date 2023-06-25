@@ -9,7 +9,7 @@ export default function Header({ email, signOut, loggedIn }) {
 
   return (
     <header className="header">
-      <img className="logo" src={logo} alt="логотип" />
+      <img className="header__logo" src={logo} alt="логотип" />
       {
         loggedIn
           ? (
